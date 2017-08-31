@@ -1,0 +1,79 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+  border: solid 0.5px;
+}
+
+h3 {
+  background-color: #ccc;
+}
+
+.ib {
+  display: inline-block;
+}
+
+.left, .right {
+  display: inline-block;
+  background-color: #f24;
+  padding: 5px 10px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.floattest {
+  overflow: hidden;
+}
+
+.card {
+  width: 450px;
+  height: 200px;
+  display: inline-block;
+  position: relative;
+}
+
+.card.cardStatic .rec2 {
+  left: 50px;
+  top: 50px;
+}
+
+.card.cardRelative .rec2 {
+  right: 50px;
+  top: 0px;
+  position: relative;
+}
+
+.card.cardAbsolute .rec2 {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+
+.card.cardFixed .rec2 {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+
+.rec {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+.rec1 {
+  background-color: blue;
+}
+
+.rec2 {
+  background-color: red;
+}
+
+.rec3 {
+  background-color: yellow;
+}
